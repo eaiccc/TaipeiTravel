@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		044B84F120FF1A64005E669E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B84F020FF1A64005E669E /* AppDelegate.m */; };
+		044B84F420FF1A64005E669E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B84F320FF1A64005E669E /* ViewController.m */; };
+		044B84F720FF1A64005E669E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044B84F520FF1A64005E669E /* Main.storyboard */; };
+		044B84F920FF1A66005E669E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044B84F820FF1A66005E669E /* Assets.xcassets */; };
+		044B84FC20FF1A66005E669E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044B84FA20FF1A66005E669E /* LaunchScreen.storyboard */; };
+		044B84FF20FF1A66005E669E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B84FE20FF1A66005E669E /* main.m */; };
+		044B850920FF1A66005E669E /* TaipeiTravelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B850820FF1A66005E669E /* TaipeiTravelTests.m */; };
+		044B851420FF1A66005E669E /* TaipeiTravelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B851320FF1A66005E669E /* TaipeiTravelUITests.m */; };
+		044B852420FF2778005E669E /* TTDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B852320FF2778005E669E /* TTDataManager.m */; };
+		044B852820FF33FC005E669E /* TTConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B852720FF33FC005E669E /* TTConst.m */; };
+		044B853920FFB2CA005E669E /* TTAttractions.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B853820FFB2CA005E669E /* TTAttractions.m */; };
+		044B853C210079C3005E669E /* TravelTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B853B210079C2005E669E /* TravelTableViewController.m */; };
+		044B853F21009110005E669E /* TravelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044B853E21009110005E669E /* TravelTableViewCell.xib */; };
+		044B854321009636005E669E /* TravelPictureCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044B854221009636005E669E /* TravelPictureCollectionViewCell.xib */; };
+		044B854621010747005E669E /* TravelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B854521010747005E669E /* TravelTableViewCell.m */; };
+		044B8549210109CD005E669E /* TravelPictureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B8548210109CD005E669E /* TravelPictureCollectionViewCell.m */; };
+		044B854C21025B4E005E669E /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B854B21025B4D005E669E /* DetailViewController.m */; };
+		044B855021033103005E669E /* TravelTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B854F21033103005E669E /* TravelTableViewModel.m */; };
+		044B855221039BD6005E669E /* TTDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B852320FF2778005E669E /* TTDataManager.m */; };
+		044B855321039BEA005E669E /* TravelTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B854F21033103005E669E /* TravelTableViewModel.m */; };
+		044B855921039F2E005E669E /* MockTravelViewModelDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B855821039F2E005E669E /* MockTravelViewModelDelegate.m */; };
+		044B855C2103B160005E669E /* MockApiService.m in Sources */ = {isa = PBXBuildFile; fileRef = 044B855B2103B160005E669E /* MockApiService.m */; };
+		67C284A8A510163667546EF2 /* Pods_TaipeiTravelTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B50D387A423F7568AF79A99F /* Pods_TaipeiTravelTests.framework */; };
+		F907279553FE068C1BCB635A /* Pods_TaipeiTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E515CB3CEF0F402B9EBA6E73 /* Pods_TaipeiTravel.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		044B850520FF1A66005E669E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044B84E420FF1A64005E669E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044B84EB20FF1A64005E669E;
+			remoteInfo = TaipeiTravel;
+		};
+		044B851020FF1A66005E669E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 044B84E420FF1A64005E669E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 044B84EB20FF1A64005E669E;
+			remoteInfo = TaipeiTravel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044B84EC20FF1A64005E669E /* TaipeiTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaipeiTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		044B84EF20FF1A64005E669E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		044B84F020FF1A64005E669E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		044B84F220FF1A64005E669E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		044B84F320FF1A64005E669E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		044B84F620FF1A64005E669E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		044B84F820FF1A66005E669E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044B84FB20FF1A66005E669E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		044B84FD20FF1A66005E669E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044B84FE20FF1A66005E669E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		044B850420FF1A66005E669E /* TaipeiTravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaipeiTravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044B850820FF1A66005E669E /* TaipeiTravelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaipeiTravelTests.m; sourceTree = "<group>"; };
+		044B850A20FF1A66005E669E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044B850F20FF1A66005E669E /* TaipeiTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaipeiTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		044B851320FF1A66005E669E /* TaipeiTravelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaipeiTravelUITests.m; sourceTree = "<group>"; };
+		044B851520FF1A66005E669E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044B852220FF2778005E669E /* TTDataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTDataManager.h; sourceTree = "<group>"; };
+		044B852320FF2778005E669E /* TTDataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTDataManager.m; sourceTree = "<group>"; };
+		044B852620FF33FC005E669E /* TTConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTConst.h; sourceTree = "<group>"; };
+		044B852720FF33FC005E669E /* TTConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTConst.m; sourceTree = "<group>"; };
+		044B853720FFB2CA005E669E /* TTAttractions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTAttractions.h; sourceTree = "<group>"; };
+		044B853820FFB2CA005E669E /* TTAttractions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAttractions.m; sourceTree = "<group>"; };
+		044B853A210079C2005E669E /* TravelTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TravelTableViewController.h; sourceTree = "<group>"; };
+		044B853B210079C2005E669E /* TravelTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelTableViewController.m; sourceTree = "<group>"; };
+		044B853E21009110005E669E /* TravelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TravelTableViewCell.xib; sourceTree = "<group>"; };
+		044B854221009636005E669E /* TravelPictureCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TravelPictureCollectionViewCell.xib; sourceTree = "<group>"; };
+		044B854421010747005E669E /* TravelTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TravelTableViewCell.h; sourceTree = "<group>"; };
+		044B854521010747005E669E /* TravelTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelTableViewCell.m; sourceTree = "<group>"; };
+		044B8547210109CD005E669E /* TravelPictureCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TravelPictureCollectionViewCell.h; sourceTree = "<group>"; };
+		044B8548210109CD005E669E /* TravelPictureCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelPictureCollectionViewCell.m; sourceTree = "<group>"; };
+		044B854A21025B4B005E669E /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		044B854B21025B4D005E669E /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		044B854E21033103005E669E /* TravelTableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TravelTableViewModel.h; sourceTree = "<group>"; };
+		044B854F21033103005E669E /* TravelTableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravelTableViewModel.m; sourceTree = "<group>"; };
+		044B855121033816005E669E /* TTProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTProtocol.h; sourceTree = "<group>"; };
+		044B855721039F2E005E669E /* MockTravelViewModelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockTravelViewModelDelegate.h; sourceTree = "<group>"; };
+		044B855821039F2E005E669E /* MockTravelViewModelDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockTravelViewModelDelegate.m; sourceTree = "<group>"; };
+		044B855A2103B160005E669E /* MockApiService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockApiService.h; sourceTree = "<group>"; };
+		044B855B2103B160005E669E /* MockApiService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockApiService.m; sourceTree = "<group>"; };
+		5DC93016882C318BF8A6704F /* Pods-TaipeiTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaipeiTravel.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaipeiTravel/Pods-TaipeiTravel.release.xcconfig"; sourceTree = "<group>"; };
+		75E5B8C9FD00A8077910AC4C /* Pods-TaipeiTravelTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaipeiTravelTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaipeiTravelTests/Pods-TaipeiTravelTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BE50D036D6B3CE5F4849A14 /* Pods-TaipeiTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaipeiTravel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TaipeiTravel/Pods-TaipeiTravel.debug.xcconfig"; sourceTree = "<group>"; };
+		B50D387A423F7568AF79A99F /* Pods_TaipeiTravelTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaipeiTravelTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE3269B1B11D7E0DAE996D14 /* Pods-TaipeiTravelTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaipeiTravelTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TaipeiTravelTests/Pods-TaipeiTravelTests.release.xcconfig"; sourceTree = "<group>"; };
+		E515CB3CEF0F402B9EBA6E73 /* Pods_TaipeiTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaipeiTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044B84E920FF1A64005E669E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F907279553FE068C1BCB635A /* Pods_TaipeiTravel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B850120FF1A66005E669E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67C284A8A510163667546EF2 /* Pods_TaipeiTravelTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B850C20FF1A66005E669E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044B84E320FF1A64005E669E = {
+			isa = PBXGroup;
+			children = (
+				044B84EE20FF1A64005E669E /* TaipeiTravel */,
+				044B850720FF1A66005E669E /* TaipeiTravelTests */,
+				044B851220FF1A66005E669E /* TaipeiTravelUITests */,
+				044B84ED20FF1A64005E669E /* Products */,
+				EFCBCC9E005BC2534903EE9F /* Pods */,
+				CCBEE5D240130210B31359D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		044B84ED20FF1A64005E669E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044B84EC20FF1A64005E669E /* TaipeiTravel.app */,
+				044B850420FF1A66005E669E /* TaipeiTravelTests.xctest */,
+				044B850F20FF1A66005E669E /* TaipeiTravelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		044B84EE20FF1A64005E669E /* TaipeiTravel */ = {
+			isa = PBXGroup;
+			children = (
+				044B853D210090B4005E669E /* Cell */,
+				044B853620FFB262005E669E /* Model */,
+				044B852520FF33B2005E669E /* Const */,
+				044B852120FF2731005E669E /* DataManager */,
+				044B854D21033040005E669E /* ViewModel */,
+				044B84EF20FF1A64005E669E /* AppDelegate.h */,
+				044B84F020FF1A64005E669E /* AppDelegate.m */,
+				044B84F220FF1A64005E669E /* ViewController.h */,
+				044B84F320FF1A64005E669E /* ViewController.m */,
+				044B854A21025B4B005E669E /* DetailViewController.h */,
+				044B854B21025B4D005E669E /* DetailViewController.m */,
+				044B853A210079C2005E669E /* TravelTableViewController.h */,
+				044B853B210079C2005E669E /* TravelTableViewController.m */,
+				044B84F520FF1A64005E669E /* Main.storyboard */,
+				044B84F820FF1A66005E669E /* Assets.xcassets */,
+				044B84FA20FF1A66005E669E /* LaunchScreen.storyboard */,
+				044B84FD20FF1A66005E669E /* Info.plist */,
+				044B84FE20FF1A66005E669E /* main.m */,
+			);
+			path = TaipeiTravel;
+			sourceTree = "<group>";
+		};
+		044B850720FF1A66005E669E /* TaipeiTravelTests */ = {
+			isa = PBXGroup;
+			children = (
+				044B850820FF1A66005E669E /* TaipeiTravelTests.m */,
+				044B855A2103B160005E669E /* MockApiService.h */,
+				044B855B2103B160005E669E /* MockApiService.m */,
+				044B855721039F2E005E669E /* MockTravelViewModelDelegate.h */,
+				044B855821039F2E005E669E /* MockTravelViewModelDelegate.m */,
+				044B850A20FF1A66005E669E /* Info.plist */,
+			);
+			path = TaipeiTravelTests;
+			sourceTree = "<group>";
+		};
+		044B851220FF1A66005E669E /* TaipeiTravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				044B851320FF1A66005E669E /* TaipeiTravelUITests.m */,
+				044B851520FF1A66005E669E /* Info.plist */,
+			);
+			path = TaipeiTravelUITests;
+			sourceTree = "<group>";
+		};
+		044B852120FF2731005E669E /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				044B852220FF2778005E669E /* TTDataManager.h */,
+				044B852320FF2778005E669E /* TTDataManager.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		044B852520FF33B2005E669E /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				044B852620FF33FC005E669E /* TTConst.h */,
+				044B852720FF33FC005E669E /* TTConst.m */,
+				044B855121033816005E669E /* TTProtocol.h */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		044B853620FFB262005E669E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				044B853720FFB2CA005E669E /* TTAttractions.h */,
+				044B853820FFB2CA005E669E /* TTAttractions.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		044B853D210090B4005E669E /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				044B854421010747005E669E /* TravelTableViewCell.h */,
+				044B854521010747005E669E /* TravelTableViewCell.m */,
+				044B853E21009110005E669E /* TravelTableViewCell.xib */,
+				044B8547210109CD005E669E /* TravelPictureCollectionViewCell.h */,
+				044B8548210109CD005E669E /* TravelPictureCollectionViewCell.m */,
+				044B854221009636005E669E /* TravelPictureCollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		044B854D21033040005E669E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				044B854E21033103005E669E /* TravelTableViewModel.h */,
+				044B854F21033103005E669E /* TravelTableViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CCBEE5D240130210B31359D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E515CB3CEF0F402B9EBA6E73 /* Pods_TaipeiTravel.framework */,
+				B50D387A423F7568AF79A99F /* Pods_TaipeiTravelTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFCBCC9E005BC2534903EE9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BE50D036D6B3CE5F4849A14 /* Pods-TaipeiTravel.debug.xcconfig */,
+				5DC93016882C318BF8A6704F /* Pods-TaipeiTravel.release.xcconfig */,
+				75E5B8C9FD00A8077910AC4C /* Pods-TaipeiTravelTests.debug.xcconfig */,
+				DE3269B1B11D7E0DAE996D14 /* Pods-TaipeiTravelTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		044B84EB20FF1A64005E669E /* TaipeiTravel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044B851820FF1A66005E669E /* Build configuration list for PBXNativeTarget "TaipeiTravel" */;
+			buildPhases = (
+				83176F161D5C95F5790AEBB7 /* [CP] Check Pods Manifest.lock */,
+				044B84E820FF1A64005E669E /* Sources */,
+				044B84E920FF1A64005E669E /* Frameworks */,
+				044B84EA20FF1A64005E669E /* Resources */,
+				60CE4876C5521D58C8B91C4E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaipeiTravel;
+			productName = TaipeiTravel;
+			productReference = 044B84EC20FF1A64005E669E /* TaipeiTravel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		044B850320FF1A66005E669E /* TaipeiTravelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044B851B20FF1A66005E669E /* Build configuration list for PBXNativeTarget "TaipeiTravelTests" */;
+			buildPhases = (
+				2FF92EACF516C2AEE7234CD5 /* [CP] Check Pods Manifest.lock */,
+				044B850020FF1A66005E669E /* Sources */,
+				044B850120FF1A66005E669E /* Frameworks */,
+				044B850220FF1A66005E669E /* Resources */,
+				B2222725C558D410901DAC71 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044B850620FF1A66005E669E /* PBXTargetDependency */,
+			);
+			name = TaipeiTravelTests;
+			productName = TaipeiTravelTests;
+			productReference = 044B850420FF1A66005E669E /* TaipeiTravelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		044B850E20FF1A66005E669E /* TaipeiTravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 044B851E20FF1A66005E669E /* Build configuration list for PBXNativeTarget "TaipeiTravelUITests" */;
+			buildPhases = (
+				044B850B20FF1A66005E669E /* Sources */,
+				044B850C20FF1A66005E669E /* Frameworks */,
+				044B850D20FF1A66005E669E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				044B851120FF1A66005E669E /* PBXTargetDependency */,
+			);
+			name = TaipeiTravelUITests;
+			productName = TaipeiTravelUITests;
+			productReference = 044B850F20FF1A66005E669E /* TaipeiTravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		044B84E420FF1A64005E669E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Link;
+				TargetAttributes = {
+					044B84EB20FF1A64005E669E = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					044B850320FF1A66005E669E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 044B84EB20FF1A64005E669E;
+					};
+					044B850E20FF1A66005E669E = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 044B84EB20FF1A64005E669E;
+					};
+				};
+			};
+			buildConfigurationList = 044B84E720FF1A64005E669E /* Build configuration list for PBXProject "TaipeiTravel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 044B84E320FF1A64005E669E;
+			productRefGroup = 044B84ED20FF1A64005E669E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				044B84EB20FF1A64005E669E /* TaipeiTravel */,
+				044B850320FF1A66005E669E /* TaipeiTravelTests */,
+				044B850E20FF1A66005E669E /* TaipeiTravelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		044B84EA20FF1A64005E669E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B84FC20FF1A66005E669E /* LaunchScreen.storyboard in Resources */,
+				044B854321009636005E669E /* TravelPictureCollectionViewCell.xib in Resources */,
+				044B853F21009110005E669E /* TravelTableViewCell.xib in Resources */,
+				044B84F920FF1A66005E669E /* Assets.xcassets in Resources */,
+				044B84F720FF1A64005E669E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B850220FF1A66005E669E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B850D20FF1A66005E669E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FF92EACF516C2AEE7234CD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaipeiTravelTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60CE4876C5521D58C8B91C4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TaipeiTravel/Pods-TaipeiTravel-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaipeiTravel/Pods-TaipeiTravel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83176F161D5C95F5790AEBB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaipeiTravel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2222725C558D410901DAC71 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TaipeiTravelTests/Pods-TaipeiTravelTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TaipeiTravelTests/Pods-TaipeiTravelTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		044B84E820FF1A64005E669E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B84F420FF1A64005E669E /* ViewController.m in Sources */,
+				044B854621010747005E669E /* TravelTableViewCell.m in Sources */,
+				044B853920FFB2CA005E669E /* TTAttractions.m in Sources */,
+				044B8549210109CD005E669E /* TravelPictureCollectionViewCell.m in Sources */,
+				044B84FF20FF1A66005E669E /* main.m in Sources */,
+				044B854C21025B4E005E669E /* DetailViewController.m in Sources */,
+				044B852820FF33FC005E669E /* TTConst.m in Sources */,
+				044B853C210079C3005E669E /* TravelTableViewController.m in Sources */,
+				044B84F120FF1A64005E669E /* AppDelegate.m in Sources */,
+				044B852420FF2778005E669E /* TTDataManager.m in Sources */,
+				044B855021033103005E669E /* TravelTableViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B850020FF1A66005E669E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B855321039BEA005E669E /* TravelTableViewModel.m in Sources */,
+				044B850920FF1A66005E669E /* TaipeiTravelTests.m in Sources */,
+				044B855221039BD6005E669E /* TTDataManager.m in Sources */,
+				044B855C2103B160005E669E /* MockApiService.m in Sources */,
+				044B855921039F2E005E669E /* MockTravelViewModelDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		044B850B20FF1A66005E669E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044B851420FF1A66005E669E /* TaipeiTravelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		044B850620FF1A66005E669E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044B84EB20FF1A64005E669E /* TaipeiTravel */;
+			targetProxy = 044B850520FF1A66005E669E /* PBXContainerItemProxy */;
+		};
+		044B851120FF1A66005E669E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 044B84EB20FF1A64005E669E /* TaipeiTravel */;
+			targetProxy = 044B851020FF1A66005E669E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		044B84F520FF1A64005E669E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044B84F620FF1A64005E669E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		044B84FA20FF1A66005E669E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				044B84FB20FF1A66005E669E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		044B851620FF1A66005E669E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		044B851720FF1A66005E669E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		044B851920FF1A66005E669E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BE50D036D6B3CE5F4849A14 /* Pods-TaipeiTravel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TG2PDEDNA;
+				INFOPLIST_FILE = TaipeiTravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.link.TaipeiTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		044B851A20FF1A66005E669E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DC93016882C318BF8A6704F /* Pods-TaipeiTravel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TG2PDEDNA;
+				INFOPLIST_FILE = TaipeiTravel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.link.TaipeiTravel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		044B851C20FF1A66005E669E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75E5B8C9FD00A8077910AC4C /* Pods-TaipeiTravelTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TG2PDEDNA;
+				INFOPLIST_FILE = TaipeiTravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.link.TaipeiTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaipeiTravel.app/TaipeiTravel";
+			};
+			name = Debug;
+		};
+		044B851D20FF1A66005E669E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE3269B1B11D7E0DAE996D14 /* Pods-TaipeiTravelTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TG2PDEDNA;
+				INFOPLIST_FILE = TaipeiTravelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.link.TaipeiTravelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaipeiTravel.app/TaipeiTravel";
+			};
+			name = Release;
+		};
+		044B851F20FF1A66005E669E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TG2PDEDNA;
+				INFOPLIST_FILE = TaipeiTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.link.TaipeiTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaipeiTravel;
+			};
+			name = Debug;
+		};
+		044B852020FF1A66005E669E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TG2PDEDNA;
+				INFOPLIST_FILE = TaipeiTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.link.TaipeiTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TaipeiTravel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		044B84E720FF1A64005E669E /* Build configuration list for PBXProject "TaipeiTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B851620FF1A66005E669E /* Debug */,
+				044B851720FF1A66005E669E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044B851820FF1A66005E669E /* Build configuration list for PBXNativeTarget "TaipeiTravel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B851920FF1A66005E669E /* Debug */,
+				044B851A20FF1A66005E669E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044B851B20FF1A66005E669E /* Build configuration list for PBXNativeTarget "TaipeiTravelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B851C20FF1A66005E669E /* Debug */,
+				044B851D20FF1A66005E669E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		044B851E20FF1A66005E669E /* Build configuration list for PBXNativeTarget "TaipeiTravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				044B851F20FF1A66005E669E /* Debug */,
+				044B852020FF1A66005E669E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 044B84E420FF1A64005E669E /* Project object */;
+}
