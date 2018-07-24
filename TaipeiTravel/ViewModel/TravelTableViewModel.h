@@ -15,4 +15,9 @@
 - (void) loadMore;
 @property (nonatomic, readonly) NSMutableArray *attractions;
 @property (nonatomic, weak) id<APIService> apiService;
+@property(nonatomic, weak) id<TTTravelViewModelDelegate> viewModeldelegate;
+@property(atomic, assign) int travelTotal;
+@property(atomic, assign) int travelOffset;
+@property(atomic, assign) int travelLimit;
+@property(atomic, assign) BOOL isLoading;
 @end

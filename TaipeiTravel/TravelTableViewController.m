@@ -20,7 +20,6 @@
     int travelOffset;
     int travelLimit;
     BOOL isLoading;
-    //NSMutableArray *attractions;
     TravelTableViewModel *viewModel;
 }
 
