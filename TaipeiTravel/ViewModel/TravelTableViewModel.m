@@ -62,7 +62,6 @@
         [attraction initWithDic:result];
         [_attractions addObject:attraction];
         [self.viewModeldelegate dataDidLoad];
-        //NSLog(@"attraction: %@", attraction.title);
     }
     
 }

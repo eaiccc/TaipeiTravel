@@ -9,4 +9,6 @@ end
 
 target 'TaipeiTravelTests' do
     pod 'AFNetworking'
+    pod 'SDWebImage'
+    pod 'MBProgressHUD'
 end
