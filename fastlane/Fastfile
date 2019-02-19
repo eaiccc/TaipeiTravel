@@ -168,7 +168,7 @@ platform :ios do
 
     puts exception.to_s
 
-    
+
   end
 end
 
