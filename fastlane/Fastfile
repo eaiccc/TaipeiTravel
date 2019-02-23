@@ -43,9 +43,9 @@ platform :ios do
   end
 
   lane :betaCI do
-    puts "[RICK] schemeName :" + schemeName
+    puts "[TestCI] schemeName :" + schemeName
     set_info_plist_value(path: plistPath, key: "CFBundleVersion", value: build)
-    get_provisioning_profile(development: true)
+    #get_provisioning_profile(development: true)
     gym(scheme: schemeName,
         export_method: "development",
         include_symbols: true,
@@ -127,7 +127,7 @@ platform :ios do
   end
   lane :betaBuildAndArchive do
 
-    get_provisioning_profile(development: true)
+    #get_provisioning_profile(development: true)
 
     gym(scheme: schemeName,
         export_method: "development",
